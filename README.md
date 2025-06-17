@@ -11,6 +11,8 @@
 ## How to Run
  - Run both in different Terminals
 ```bash
+cd Code_Review_Bot
+
 # Frontend Setup
 cd frontend
 npm install
