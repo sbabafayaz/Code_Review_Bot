@@ -7,7 +7,8 @@
 - Git PR diff analysis
 - Feedback loop and database
 - Security scanning via Bandit + Semgrep
-
+## API_KEY
+ - Please change the API key at ..\backend\review_engine.py
 ## How to Run
  - Run both in different Terminals
 ```bash
