@@ -26,16 +26,16 @@ function App() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h2>🧠 Code Review Bot</h2>
+      <h2> Code Review Bot</h2>
 
       <div style={{ marginBottom: 10 }}>
         <label>Select Language: </label>
         <select value={language} onChange={(e) => setLanguage(e.target.value)}>
-          <option value="python">Python</option>
-          <option value="javascript">JavaScript</option>
-          <option value="java">Java</option>
-          <option value="c">C</option>
-          <option value="cpp">C++</option>
+          <option value="Python">Python</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="Java">Java</option>
+          <option value="C">C</option>
+          <option value="CPP">C++</option>
         </select>
       </div>
 

@@ -9,13 +9,16 @@
 - Security scanning via Bandit + Semgrep
 
 ## How to Run
+
 ```bash
+# Frontend Setup
+cd frontend
+npm install
+npm run dev
+
+# Backend Setup
+cd ../backend
+python -m venv venv
+venv\Scripts\activate      # Use `source venv/bin/activate` on Mac/Linux
+pip install -r ../requirements.txt  # requirements.txt is in the root directory
 uvicorn main:app --reload
-```
-Visit: http://127.0.0.1:8000/docs to test.
-
-## Note
-🔴 Replace `YOUR_OPENAI_API_KEY` in `review_engine.py`
-🔴 Install Node.js & Semgrep CLI for full security support
-
----
