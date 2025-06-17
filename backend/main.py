@@ -1,13 +1,13 @@
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
-from backend.analyzer import analyze_python_code
+from analyzer import analyze_python_code
 #from backend.review_engine import review_code_with_gemini
-from backend.review_engine import review_code_with_gpt
-from backend.git_utils import get_commit_diff
-from backend.feedback_handler import record_feedback
-from backend.metrics import compute_complexity
-from backend.security_checker import check_security
+from review_engine import review_code_with_gpt
+from git_utils import get_commit_diff
+from feedback_handler import record_feedback
+from metrics import compute_complexity
+from security_checker import check_security
 
 app = FastAPI()
 
