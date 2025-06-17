@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+google-generativeai
+tree_sitter
+GitPython
+bandit
+semgrep
+sqlalchemy
+psycopg2-binary
+radon
+backend
