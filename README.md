@@ -15,7 +15,7 @@ uvicorn main:app --reload
 Visit: http://127.0.0.1:8000/docs to test.
 
 ## Note
-🔴 Replace `YOUR_GEMINI_API_KEY` in `review_engine.py`
+🔴 Replace `YOUR_OPENAI_API_KEY` in `review_engine.py`
 🔴 Install Node.js & Semgrep CLI for full security support
 
 ---
