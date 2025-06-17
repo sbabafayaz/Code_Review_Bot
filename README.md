@@ -17,6 +17,7 @@ npm install
 npm run dev
 
 # Backend Setup
+```bash
 cd ../backend
 python -m venv venv
 venv\Scripts\activate      # Use `source venv/bin/activate` on Mac/Linux
