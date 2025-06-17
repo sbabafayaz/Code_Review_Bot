@@ -9,7 +9,7 @@
 - Security scanning via Bandit + Semgrep
 
 ## How to Run
-
+ - Run both in different Terminals
 ```bash
 # Frontend Setup
 cd frontend
@@ -17,9 +17,9 @@ npm install
 npm run dev
 
 # Backend Setup
-```bash
-cd ../backend
+
+cd backend
 python -m venv venv
 venv\Scripts\activate      # Use `source venv/bin/activate` on Mac/Linux
-pip install -r ../requirements.txt  # requirements.txt is in the root directory
+pip install -r ../requirements.txt  
 uvicorn main:app --reload
